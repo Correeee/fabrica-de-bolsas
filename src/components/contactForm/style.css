@@ -1,0 +1,106 @@
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem 0;
+    width: 100%;
+}
+
+.contactForm h1 {
+    font-size: 5rem;
+    margin: 0;
+    color: var(--color-secundary);
+}
+
+.contactForm h2 {
+    font-size: 2rem;
+    margin: 0;
+    color: var(--color-secundary);
+    opacity: 0.9;
+}
+
+.contactForm__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem 0;
+    margin: 1rem 0;
+    padding: 1rem;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.contactForm__form input {
+    height: 4rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid var(--color-text);
+    background-color: transparent;
+    outline: none;
+    color: var(--color-secundary);
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contactForm__form input::placeholder,
+.contactForm__form textarea::placeholder {
+    color: var(--color-secundary);
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.7;
+    text-align: start;
+}
+
+.contactForm__form textarea {
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid var(--color-text);
+    outline: none;
+    color: var(--color-secundary);
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    resize: none;
+}
+
+.contactForm__form input,
+.contactForm__form textarea {
+    max-width: 60rem;
+    min-width: 25rem;
+    width: 60%;
+}
+
+.contactForm__btn {
+    font-size: 3rem;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    padding: 0.5rem 1rem;
+    background-color: var(--color-text);
+    color: white;
+    transition: 0.2s;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+.contactForm__btn:hover {
+    background-color: var(--color-primary);
+}
+
+
+@media screen and (max-width: 768px) {
+    .contactForm h1 {
+        font-size: 3rem;
+        margin: 0;
+        color: var(--color-secundary);
+    }
+
+    .contactForm h2 {
+        font-size: 1rem;
+        margin: 0;
+        color: var(--color-secundary);
+        opacity: 0.9;
+    }
+}

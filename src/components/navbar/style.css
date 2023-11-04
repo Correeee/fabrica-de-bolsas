@@ -3,11 +3,14 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: transparent;
-    height: 8rem;
+    background-color: var(--color-text);
+    height: 7rem;
     position: fixed;
     width: 100%;
     z-index: 99999999;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid white;
 }
 
 .navbar ul {
@@ -20,21 +23,24 @@
 }
 
 .navbar ul li {
-    color: var(--color-text);
+    color: #141414;
     text-decoration: none;
     cursor: pointer;
     transition: 0.2s;
     list-style: none;
+    color: white;
+    font-weight: lighter;
 }
 
 .navbar ul li:hover {
-    color: var(--color-yellow);
+    color: var(--color-primary);
 }
 
 .navbar__logo {
-    width: 6rem;
-    height: 6rem;
+    width: 15rem;
     background-color: white;
     object-fit: cover;
-    filter: drop-shadow(0px 0px 5px var(--color-yellow));
+    padding: 0.75rem;
+    box-sizing: border-box;
+    border-radius: 8px;
 }

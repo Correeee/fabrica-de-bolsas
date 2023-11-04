@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import homeImg from '../../images/demo.png'
+import logo from '../../images/logo.png'
 
 const Home = () => {
     return (
@@ -8,30 +8,30 @@ const Home = () => {
             <div className='home__container'>
                 <div className='home__part1'>
                     <div className='home__text'>
-                        Nuestras bolsas argentinas de polietileno son incomparables en calidad y resistencia.
+                    Resalte su marca con elegancia. Nuestras bolsas para regalos empresariales transmiten calidad y distinción. Impresione a sus clientes.
                     </div>
                     <div className='home__bigText'>
-                        LAS MEJORES
+                        LOS MEJORES
                     </div>
                 </div>
                 <div className='home__part2'>
                     <div className='home__bigText'>
-                        BOLSAS
+                        PRODUCTOS
                     </div>
                     <div className='home__text'>
-                        Descubre la excelencia en bolsas de polietileno hechas en Argentina. 
+                    Potencie sus relaciones comerciales con nuestras bolsas personalizadas. Refuerce su imagen corporativa y deje una impresión duradera.
                     </div>
                 </div>
                 <div className='home__part3'>
                     <div className='home__text'>
-                    Ofrecemos durabilidad y versatilidad incomparables en cada producto. La opción número uno para sostenibilidad.
+                    Las bolsas y mates para regalos empresariales perfectos. Personalización exclusiva y calidad superior para hacer brillar su marca en cada detalle.
                     </div>
                     <div className='home__bigText'>
-                        ARGENTINAS
+                        SUSTENTABLES
                     </div>
                 </div>
             </div>
-            <img src={homeImg} alt="home image" className='home__img' />
+            <img src={logo} alt="home image" className='home__img' />
         </section>
     )
 }

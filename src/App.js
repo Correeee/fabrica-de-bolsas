@@ -10,16 +10,14 @@ import Contact from './pages/contact/contact';
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className="App" id='app'>
-        <Navbar />
-        <Home />
-        <AboutMe />
-        <Products />
-        <Contact />
-        <Footer />
-      </div>
-    </BrowserRouter>
+    <div className="App" id='app'>
+      <Navbar />
+      <Home />
+      <AboutMe />
+      <Products />
+      <Contact />
+      <Footer />
+    </div>
   );
 }
 

@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import './style.css'
 import { useParams } from 'react-router-dom'
+import brand from '../../images/brand.jpg'
 
 const Navbar = () => {
 
@@ -11,10 +12,10 @@ const Navbar = () => {
 
     return (
         <div className='navbar'>
+            <img src={brand} alt="logo" className='navbar__logo' />
             <ul>
                 <li href='#home' onClick={(e) => handlerScroll(e.target)}>Inicio</li>
                 <li href='#aboutMe' onClick={(e) => handlerScroll(e.target)}>Nosotros</li>
-                <img src="" alt="logo" className='navbar__logo' />
                 <li href='#products' onClick={(e) => handlerScroll(e.target)}>Productos</li>
                 <li href='#contact' onClick={(e) => handlerScroll(e.target)}>Contacto</li>
             </ul>

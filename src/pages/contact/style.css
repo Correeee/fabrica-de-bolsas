@@ -5,6 +5,10 @@
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-color: var(--color-yellow);
+    background-color: white;
+    background-image: url(../../images/background/hoja.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%; 
+    background-size: 40%;
 }
 
