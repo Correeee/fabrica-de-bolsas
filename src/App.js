@@ -10,6 +10,7 @@ import wsp from './images/wsp.png'
 
 
 function App() {
+  
   return (
     <div className="App" id='app'>
       <Navbar />
