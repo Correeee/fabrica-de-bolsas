@@ -11,7 +11,7 @@ const ContactForm = () => {
     const handlerMail = () => {
 
         if (name, phone, text) {
-            const msg = `¡Hola BUSTA! Mi nombre es ${name.toUpperCase()} y mi número de contacto ${phone}. ${text}`
+            const msg = `¡Hola BUSTA! Mi nombre es ${name.toUpperCase()} y mi número de contacto es ${phone}. ${text}`
             setMessage(msg)
         }
 
