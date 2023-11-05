@@ -9,7 +9,7 @@ const Loader = () => {
         <div className='loader'>
             <img src={brand} alt="brand" className='loader__brand' />
             <div className='loader__bar'>
-                <div className='loader__subBar'></div>
+                <div className='loader__subBar' id='subBar'></div>
             </div>
         </div>
     )

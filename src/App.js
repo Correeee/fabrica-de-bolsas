@@ -15,9 +15,11 @@ function App() {
 
   const [isLoading, setIsloading] = useState(true)
 
+
   setTimeout(() => {
     setIsloading(false)
   }, 2500);
+
 
   return (
     <div className="App" id='app'>
