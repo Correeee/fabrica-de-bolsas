@@ -18,6 +18,9 @@ const Home = () => {
                     <div className='home__bigText'>
                         EMPRESARIALES
                     </div>
+                    <div className='home__bigText home__bigText-responsive'>
+                    SUSTENTABLES
+                    </div>
                     <div className='home__text'>
                         Potencie sus relaciones comerciales con nuestras bolsas personalizadas. Refuerce su imagen corporativa y deje una impresión duradera.
                     </div>
@@ -26,7 +29,7 @@ const Home = () => {
                     <div className='home__text'>
                         Las bolsas y mates para regalos empresariales perfectos. Personalización exclusiva y calidad superior para hacer brillar su marca en cada detalle.
                     </div>
-                    <div className='home__bigText'>
+                    <div className='home__bigText home__bigText-noResponsive'>
                         SUSTENTABLES
                     </div>
                 </div>

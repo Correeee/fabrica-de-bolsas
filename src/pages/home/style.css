@@ -60,6 +60,11 @@
     opacity: 0.4;
 }
 
+.home__bigText-responsive {
+    display: none;
+}
+
+
 @media screen and (max-width: 1024px) {
     .home__text {
         font-size: 2rem;
@@ -85,6 +90,14 @@
     .home__bigText {
         font-size: 6rem;
         font-weight: bold;
+    }
+
+    .home__bigText-responsive {
+        display: flex;
+    }
+
+    .home__bigText-noResponsive {
+        display: none;
     }
 }
 
