@@ -10,13 +10,20 @@ import vivamos from './marquee-images/vivamos.png'
 import viandas from './marquee-images/viandas.jpg'
 import shell from './marquee-images/shell.png'
 import atsa from './marquee-images/atsa.png'
-
+import { motion } from 'framer-motion'
 
 
 const AboutMe = () => {
 
     return (
-        <div className='about' id='aboutMe'>
+        <motion.section
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{
+                delay: 0.2
+            }}
+            className='about' id='aboutMe'>
             <div className='about__container'>
                 <img src={aboutIMG} alt="about image" className='about__containerIMG' />
                 <div className='aboutMe__text'>
@@ -41,7 +48,7 @@ const AboutMe = () => {
                     <img src={atsa} alt="logo 5" className='marquee__logo' />
                 </marquee>
             </div>
-        </div>
+        </motion.section>
     )
 }
 

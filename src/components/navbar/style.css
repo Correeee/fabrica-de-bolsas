@@ -29,11 +29,11 @@
     transition: 0.2s;
     list-style: none;
     color: white;
-    font-weight: lighter;
+    font-weight: 300;
 }
 
 .navbar__list-screen li:hover {
-    color: var(--color-primary);
+    color: var(--color-secundary);
 }
 
 .navbar__logo {
@@ -57,7 +57,7 @@
     background-color: transparent;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
     .navbar__list-screen {
         display: flex !important;
     }

@@ -3,6 +3,9 @@ import './style.css'
 import logo from '../../images/logo.png'
 
 const Home = () => {
+
+    
+
     return (
         <section className='home' id='home'>
             <div className='home__container'>

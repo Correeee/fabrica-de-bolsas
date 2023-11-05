@@ -1,12 +1,19 @@
 import React from 'react'
 import './style.css'
-
+import { motion } from 'framer-motion'
 
 const Products = () => {
     return (
-        <section className='products' id='products'>
+        <motion.section
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{
+                delay: 0.2
+            }}
+            className='products' id='products'>
 
-        </section>
+        </motion.section>
     )
 }
 
