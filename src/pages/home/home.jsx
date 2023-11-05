@@ -1,17 +1,16 @@
 import React from 'react'
 import './style.css'
-import logo from '../../images/logo.png'
+import logo from '../../images/data/logo-busta.png'
 
 const Home = () => {
 
-    
 
     return (
         <section className='home' id='home'>
             <div className='home__container'>
                 <div className='home__part1'>
                     <div className='home__text'>
-                        Resalte su marca con elegancia. Nuestras bolsas para regalos empresariales transmiten calidad y distinción. Impresione a sus clientes.
+                        Resalte su marca con elegancia. Nuestras bolsas para regalos empresariales transmiten calidad y distinción.
                     </div>
                     <div className='home__bigText'>
                         PRODUCTOS
@@ -30,7 +29,7 @@ const Home = () => {
                 </div>
                 <div className='home__part3'>
                     <div className='home__text'>
-                        Las bolsas y mates para regalos empresariales perfectos. Personalización exclusiva y calidad superior para hacer brillar su marca en cada detalle.
+                        Las bolsas, mates y más para regalos empresariales perfectos. Personalización exclusiva y calidad superior para hacer brillar su marca en cada detalle.
                     </div>
                     <div className='home__bigText home__bigText-noResponsive'>
                         SUSTENTABLES
