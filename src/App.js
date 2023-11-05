@@ -6,6 +6,7 @@ import Footer from './components/footer/footer';
 import AboutMe from './pages/aboutMe/aboutMe';
 import Products from './pages/products/products';
 import Contact from './pages/contact/contact';
+import wsp from './images/wsp.png'
 
 
 function App() {
@@ -17,6 +18,9 @@ function App() {
       <Products />
       <Contact />
       <Footer />
+      <a href='https://wa.link/86651z' target='__blank'>
+        <img src={wsp} alt='whatsapp' className='whatsapp'/>
+      </a>
     </div>
   );
 }

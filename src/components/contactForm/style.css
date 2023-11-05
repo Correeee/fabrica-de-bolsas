@@ -92,6 +92,21 @@
 
 @media screen and (max-width: 768px) {
     .contactForm h1 {
+        font-size: 4rem;
+        margin: 0;
+        color: var(--color-secundary);
+    }
+
+    .contactForm h2 {
+        font-size: 1.5rem;
+        margin: 0;
+        color: var(--color-secundary);
+        opacity: 0.9;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .contactForm h1 {
         font-size: 3rem;
         margin: 0;
         color: var(--color-secundary);

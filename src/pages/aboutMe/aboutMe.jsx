@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import bolsa from '../../images/demo.png'
+
 
 const AboutMe = () => {
     return (

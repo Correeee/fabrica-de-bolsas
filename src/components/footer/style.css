@@ -5,10 +5,10 @@
     align-items: center;
     background-color: var(--color-secundary);
     width: 100vw;
-    height: 12rem;
-    padding: 0 2rem;
+    height: auto;
+    padding: 2rem;
     box-sizing: border-box;
-    gap: 0 1rem;
+    gap: 2rem 1rem;
 }
 
 .footer__logo{
@@ -50,7 +50,16 @@
 }
 
 .footer__contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: white;
+    gap: 1rem 0;
+}
+
+.footer__contact h3, .footer__contact h2{
+    margin: 0;
 }
 
 .footer__contact a{
@@ -65,4 +74,15 @@
 
 .footer__contact span{
     color: var(--color-text);
+}
+
+
+@media screen and (max-width: 768px) {
+    .footer{
+        flex-direction: column;
+    }
+
+    .footer__contact{
+        text-align: center;
+    }
 }

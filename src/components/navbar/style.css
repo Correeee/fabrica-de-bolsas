@@ -1,20 +1,20 @@
 .navbar {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: var(--color-text);
-    height: 7rem;
+    height: 8rem;
     position: fixed;
     width: 100%;
     z-index: 99999999;
-    padding: 0 1rem;
+    padding: 1rem;
     box-sizing: border-box;
     border-bottom: 1px solid white;
 }
 
-.navbar ul {
-    display: flex;
+.navbar__list-screen {
+    display: flex; 
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -22,7 +22,7 @@
     font-size: 2rem;
 }
 
-.navbar ul li {
+.navbar__list-screen li {
     color: #141414;
     text-decoration: none;
     cursor: pointer;
@@ -32,7 +32,7 @@
     font-weight: lighter;
 }
 
-.navbar ul li:hover {
+.navbar__list-screen li:hover {
     color: var(--color-primary);
 }
 
@@ -43,4 +43,56 @@
     padding: 0.75rem;
     box-sizing: border-box;
     border-radius: 8px;
+}
+
+.navbar__btn {
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
+    border-color: var(--color-text2);
+    border-width: 1px;
+}
+
+.navbar__closedImg {
+    width: 3rem;
+    background-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar__list-screen {
+        display: flex !important;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        gap: 0 1rem;
+    }
+
+    .navbar__list-screen {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: var(--color-text);
+        left: 0;
+        top: 70%;
+        width: 100vw;
+        padding: 1rem 0;
+        animation: open 0.2s ease;
+    }
+
+    .navbar__btn {
+        display: flex;
+    }
+}
+
+@keyframes open {
+    0% {
+        height: 0;
+    }
+
+    100% {
+        height: 10rem;
+    }
 }

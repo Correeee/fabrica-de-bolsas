@@ -19,7 +19,7 @@ const ContactForm = () => {
 
     return (
         <div className='contactForm'>
-            <h1>Ponte en contacto.</h1>
+            <h1>Póngase en contacto.</h1>
             <h2>No dude en ponerse en contacto en cualquier momento.</h2>
             <form className='contactForm__form'>
                 <input type="text" name="" id="" placeholder='Nombre completo' required onChange={(e) => setName(e.target.value)} />
