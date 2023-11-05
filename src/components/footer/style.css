@@ -24,7 +24,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 0 1rem;
+    gap: 0 2rem;
 }
 
 
@@ -90,3 +90,12 @@
         width: 10rem;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .footer__icons{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    
+}
+

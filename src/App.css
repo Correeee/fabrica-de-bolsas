@@ -9,10 +9,10 @@
     transition: 0.2s;
     cursor: pointer;
     position: fixed;
-    bottom: 20rem; 
+    bottom: 14rem; 
     right: 2rem; 
     z-index: 999;
-    opacity: 0.7;
+    opacity: 0.2;
 }
 
 .whatsapp:hover{
