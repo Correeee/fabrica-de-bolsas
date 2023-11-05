@@ -2,6 +2,7 @@ import React from 'react'
 import './style.css'
 import { motion } from 'framer-motion'
 
+
 const Products = () => {
     return (
         <motion.section
@@ -11,7 +12,8 @@ const Products = () => {
             transition={{
                 delay: 0.2
             }}
-            className='products' id='products'>
+            className='products' id='products'
+        >
 
         </motion.section>
     )

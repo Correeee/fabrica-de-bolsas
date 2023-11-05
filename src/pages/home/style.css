@@ -12,6 +12,14 @@
     background-size: cover;
 }
 
+.home .filter{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-secundary);
+    opacity: 0.2;
+}
+
 .home__container {
     display: flex;
     flex-direction: column;
