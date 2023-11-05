@@ -26,6 +26,15 @@ const Navbar = () => {
         }
     }
 
+    window.addEventListener('resize', (e) => {
+        if (navbar.current && e.target.innerWidth > 768) {
+            navbar.current.style.display = 'flex';
+        }
+        if (navbar.current && e.target.innerWidth < 768) {
+            navbar.current.style.display = 'none';
+        }
+    });
+
     return (
         <div className='navbar' >
             <img src={brand} alt="logo" className='navbar__logo' />

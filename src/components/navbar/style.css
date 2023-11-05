@@ -14,7 +14,7 @@
 }
 
 .navbar__list-screen {
-    display: flex; 
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -57,11 +57,7 @@
     background-color: transparent;
 }
 
-@media screen and (min-width: 769px) {
-    .navbar__list-screen {
-        display: flex !important;
-    }
-}
+
 
 @media screen and (max-width: 768px) {
     .navbar {
