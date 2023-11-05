@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import brand from '../../images/brand.jpg'
+import brand from '../../images/data/brand-busta.png'
 import instagram from '../../images/socials/instagram.png'
 import whatsapp from '../../images/socials/whatsapp.png'
 

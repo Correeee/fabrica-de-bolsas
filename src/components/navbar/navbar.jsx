@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import './style.css'
 import { useParams } from 'react-router-dom'
-import brand from '../../images/brand.jpg'
+import brand from '../../images/data/brand-busta.png'
 import openedIMG from '../../images/navbar/opened.png'
 import closedIMG from '../../images/navbar/closed.png'
 
@@ -27,7 +27,7 @@ const Navbar = () => {
     }
 
     return (
-        <div className='navbar'>
+        <div className='navbar' >
             <img src={brand} alt="logo" className='navbar__logo' />
             <ul className='navbar__list-screen' ref={navbar} >
                 <li href='#home' onClick={(e) => {
@@ -47,7 +47,7 @@ const Navbar = () => {
                     handlerNavbar()
                 }}>Contacto</li>
             </ul>
-            <button className='navbar__btn' onClick={handlerNavbar} >
+            <button className='navbar__btn' onClick={handlerNavbar}>
                 <img src={!opened ? closedIMG : openedIMG} alt="closed" className='navbar__closedImg' />
             </button>
         </div>

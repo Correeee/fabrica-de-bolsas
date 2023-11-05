@@ -16,7 +16,7 @@
     background-color: white;
     padding: 0.75rem 1rem;
     box-sizing: border-box;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .footer__socials{
@@ -84,5 +84,9 @@
 
     .footer__contact{
         text-align: center;
+    }
+
+    .footer__logo{
+        width: 10rem;
     }
 }
