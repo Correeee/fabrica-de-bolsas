@@ -65,7 +65,7 @@
     height: 60rem;
     z-index: 0;
     filter: drop-shadow(10px 10px 2px var(--color-text));
-    /* opacity: 0.4; */
+    bottom: 0;
 }
 
 .home__bigText-responsive {
@@ -73,7 +73,7 @@
 }
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1156px) {
     .home__text {
         font-size: 2rem;
         width: 40rem;
@@ -95,6 +95,7 @@
     
     .home__container{
         text-align: center;
+        padding: 5rem 0 0 0;
     }
 
 }
