@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import './style.css'
 import { useParams } from 'react-router-dom'
-import brand from '../../images/data/brand-busta.png'
+import brand from '../../images/data/brand-busta.jpg'
 import openedIMG from '../../images/navbar/opened.png'
 import closedIMG from '../../images/navbar/closed.png'
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import aboutIMG from '../../images/data/brand-busta.png'
+import aboutIMG from '../../images/data/brand-busta.jpg'
 import gdc from './marquee-images/GDC.jpg'
 import elie from './marquee-images/elie.jpg'
 import penta from './marquee-images/penta.jpg'
