@@ -7,21 +7,36 @@ import AboutMe from './pages/aboutMe/aboutMe';
 import Products from './pages/products/products';
 import Contact from './pages/contact/contact';
 import wsp from './images/wsp.png'
+import Loader from './components/loader/loader';
+import { useState } from 'react';
 
 
 function App() {
-  
+
+  const [isLoading, setIsloading] = useState(true)
+
+  setTimeout(() => {
+    setIsloading(false)
+  }, 2500);
+
   return (
     <div className="App" id='app'>
-      <Navbar />
-      <Home />
-      <AboutMe />
-      <Products />
-      <Contact />
-      <Footer />
-      <a href='https://wa.link/86651z' target='__blank'>
-        <img src={wsp} alt='whatsapp' className='whatsapp'/>
-      </a>
+      {
+        isLoading ?
+          <Loader />
+          :
+          <>
+            <Navbar />
+            <Home />
+            <AboutMe />
+            <Products />
+            <Contact />
+            <Footer />
+            <a href='https://wa.link/86651z' target='__blank'>
+              <img src={wsp} alt='whatsapp' className='whatsapp' />
+            </a>
+          </>
+      }
     </div>
   );
 }

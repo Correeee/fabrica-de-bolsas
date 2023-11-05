@@ -1,0 +1,37 @@
+.loader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+.loader__brand{
+    width: 20rem;
+    height: 20rem;
+}
+
+.loader__bar{
+    width: 20rem;
+    height: 0.75rem;
+    border-radius: 10px;
+    background-color: var(--color-secundary);
+}
+
+.loader__subBar{
+    width: 0%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: var(--color-text);
+    animation: charge 2.5s forwards;
+}
+
+@keyframes charge {
+    0%{
+        width: 0%;
+    }100%{
+        width: 100%;
+    }
+}
