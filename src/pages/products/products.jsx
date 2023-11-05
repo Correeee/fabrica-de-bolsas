@@ -5,8 +5,9 @@ import product from '../../images/data/brand-busta.jpg'
 import lisas from '../../images/products/categories/lisas.png'
 import estampadas from '../../images/products/categories/estampadas.png'
 import mates from '../../images/products/categories/mates.png'
+import genericas from '../../images/products/categories/genericas.png'
 import ReactImageGallery from 'react-image-gallery'
-import { estampadasList, lisasList, matesList } from './data'
+import { estampadasList, genericasList, lisasList, matesList } from './data'
 
 
 const Products = () => {
@@ -43,13 +44,13 @@ const Products = () => {
                                 <img src={estampadas} alt="Bolsas estampadas" className='carousel__img' />
                                 <h2>Bolsas estampadas</h2>
                             </div>
-                            {/* <div className='carousel__card' onClick={() => {
-                                setSelectedCategory(matesList);
-                                setTitle('Mates')
+                            <div className='carousel__card' onClick={() => {
+                                setSelectedCategory(genericasList);
+                                setTitle('Genéricas')
                             }}>
-                                <img src={mates} alt="Mates" className='carousel__img' />
-                                <h2>Mates</h2>
-                            </div> */}
+                                <img src={genericas} alt="Genéricas" className='carousel__img' />
+                                <h2>Genéricas</h2>
+                            </div>
                         </div>
                     </>
                     :

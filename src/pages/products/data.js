@@ -22,6 +22,14 @@ import estampadas13 from '../../images/products/categories/estampadas/13.jpeg'
 import estampadas14 from '../../images/products/categories/estampadas/14.jpeg'
 import estampadas15 from '../../images/products/categories/estampadas/15.jpeg'
 
+import genericas1 from '../../images/products/categories/genericas/1.jpg'
+import genericas2 from '../../images/products/categories/genericas/2.jpg'
+import genericas3 from '../../images/products/categories/genericas/3.jpeg'
+import genericas4 from '../../images/products/categories/genericas/4.jpeg'
+import genericas5 from '../../images/products/categories/genericas/5.jpeg'
+import genericas6 from '../../images/products/categories/genericas/6.jpeg'
+import genericas7 from '../../images/products/categories/genericas/7.jpeg'
+
 
 
 export const lisasList = [
@@ -118,6 +126,37 @@ export const estampadasList = [
         thumbnail: estampadas15,
     },
 
+];
+
+export const genericasList = [
+    {
+        original: genericas1,
+        thumbnail: genericas1,
+    },
+    {
+        original: genericas2,
+        thumbnail: genericas2,
+    },
+    {
+        original: genericas3,
+        thumbnail: genericas3,
+    },
+    {
+        original: genericas4,
+        thumbnail: genericas4,
+    },
+    {
+        original: genericas5,
+        thumbnail: genericas5,
+    },
+    {
+        original: genericas6,
+        thumbnail: genericas6,
+    },
+    {
+        original: genericas7,
+        thumbnail: genericas7,
+    },
 ];
 
 export const matesList = [
