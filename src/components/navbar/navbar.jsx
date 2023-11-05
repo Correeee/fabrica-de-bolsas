@@ -28,9 +28,11 @@ const Navbar = () => {
 
     window.addEventListener('resize', (e) => {
         if (navbar.current && e.target.innerWidth > 768) {
+            setOpened(false)
             navbar.current.style.display = 'flex';
         }
         if (navbar.current && e.target.innerWidth < 768) {
+            setOpened(false)
             navbar.current.style.display = 'none';
         }
     });
