@@ -62,7 +62,7 @@ const Products = () => {
                             <h1>{title}</h1>
                             <button onClick={() => setSelectedCategory()}>Volver</button>
                         </div>
-                        <ReactImageGallery items={selectedCategory} showPlayButton={false} />
+                        <ReactImageGallery items={selectedCategory} showPlayButton={false} showFullscreenButton={false}/>
                     </div>
             }
 
