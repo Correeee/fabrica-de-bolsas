@@ -33,6 +33,7 @@ const Products = () => {
                             <div className='carousel__card' onClick={() => {
                                 setSelectedCategory(lisasList);
                                 setTitle('Bolsas lisas')
+                                window.location.href = '#products'
                             }}>
                                 <img src={lisas} alt="Bolsas lisas" className='carousel__img' />
                                 <h2>Bolsas lisas</h2>
@@ -40,6 +41,7 @@ const Products = () => {
                             <div className='carousel__card' onClick={() => {
                                 setSelectedCategory(estampadasList);
                                 setTitle('Bolsas estampadas')
+                                window.location.href = '#products'
                             }}>
                                 <img src={estampadas} alt="Bolsas estampadas" className='carousel__img' />
                                 <h2>Bolsas estampadas</h2>
@@ -47,6 +49,7 @@ const Products = () => {
                             <div className='carousel__card' onClick={() => {
                                 setSelectedCategory(genericasList);
                                 setTitle('Genéricas')
+                                window.location.href = '#products'
                             }}>
                                 <img src={genericas} alt="Genéricas" className='carousel__img' />
                                 <h2>Genéricas</h2>
