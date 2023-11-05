@@ -153,6 +153,10 @@
     .products button{
         font-size: 1.5rem;
     }
+
+    .products{
+        background-image: none
+    }
 }
 
 @media screen and (max-width: 520px) {
