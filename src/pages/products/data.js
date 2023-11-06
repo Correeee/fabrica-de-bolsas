@@ -6,21 +6,16 @@ import lisa5 from '../../images/products/categories/lisas/5.jpeg'
 import lisa6 from '../../images/products/categories/lisas/6.jpeg'
 import lisa7 from '../../images/products/categories/lisas/7.jpeg'
 
-import estampadas1 from '../../images/products/categories/estampadas/1.jpeg'
-import estampadas2 from '../../images/products/categories/estampadas/2.jpeg'
-import estampadas3 from '../../images/products/categories/estampadas/3.jpeg'
-import estampadas4 from '../../images/products/categories/estampadas/4.jpeg'
-import estampadas5 from '../../images/products/categories/estampadas/5.jpeg'
-import estampadas6 from '../../images/products/categories/estampadas/6.jpeg'
-import estampadas7 from '../../images/products/categories/estampadas/7.jpeg'
-import estampadas8 from '../../images/products/categories/estampadas/8.jpeg'
-import estampadas9 from '../../images/products/categories/estampadas/9.jpeg'
-import estampadas10 from '../../images/products/categories/estampadas/10.jpeg'
-import estampadas11 from '../../images/products/categories/estampadas/11.jpeg'
-import estampadas12 from '../../images/products/categories/estampadas/12.jpeg'
-import estampadas13 from '../../images/products/categories/estampadas/13.jpeg'
-import estampadas14 from '../../images/products/categories/estampadas/14.jpeg'
-import estampadas15 from '../../images/products/categories/estampadas/15.jpeg'
+import estampadas1 from '../../images/products/categories/estampadas/1.png'
+import estampadas2 from '../../images/products/categories/estampadas/2.png'
+import estampadas3 from '../../images/products/categories/estampadas/3.png'
+import estampadas4 from '../../images/products/categories/estampadas/4.png'
+import estampadas5 from '../../images/products/categories/estampadas/5.png'
+import estampadas6 from '../../images/products/categories/estampadas/6.png'
+import estampadas7 from '../../images/products/categories/estampadas/7.png'
+import estampadas8 from '../../images/products/categories/estampadas/8.png'
+import estampadas9 from '../../images/products/categories/estampadas/9.png'
+import estampadas10 from '../../images/products/categories/estampadas/10.png'
 
 import genericas1 from '../../images/products/categories/genericas/1.jpg'
 import genericas2 from '../../images/products/categories/genericas/2.jpg'
@@ -105,27 +100,6 @@ export const estampadasList = [
         original: estampadas10,
         thumbnail: estampadas10,
     },
-    {
-        original: estampadas11,
-        thumbnail: estampadas11,
-    },
-    {
-        original: estampadas12,
-        thumbnail: estampadas12,
-    },
-    {
-        original: estampadas13,
-        thumbnail: estampadas13,
-    },
-    {
-        original: estampadas14,
-        thumbnail: estampadas14,
-    },
-    {
-        original: estampadas15,
-        thumbnail: estampadas15,
-    },
-
 ];
 
 export const genericasList = [
