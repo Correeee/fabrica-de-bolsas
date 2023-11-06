@@ -47,7 +47,7 @@
 }
 
 .home__text {
-    font-size: 2rem;
+    font-size: 2.25rem;
     width: 40rem;
     font-weight: 300;
     color: white;
@@ -73,7 +73,12 @@
 }
 
 
-@media screen and (max-width: 1156px) {
+@media screen and (max-width: 1024px) {
+
+    .home__container > div{
+        flex-direction: column;
+    }
+
     .home__text {
         font-size: 2rem;
         width: 40rem;
@@ -101,6 +106,11 @@
 }
 
 @media screen and (max-width: 768px) {
+    
+
+    .home__container{
+        gap: 0;
+    }
 
     .home__text {
         font-size: 1.75rem;
@@ -123,8 +133,7 @@
 @media screen and (max-width: 425px) {
     .home__text {
         font-size: 1.75rem;
-        width: 40rem;
-        font-weight: 100;
+        width: 90%;
     }
 
     .home__bigText {
