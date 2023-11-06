@@ -125,6 +125,7 @@
     outline: none;
     cursor: pointer;
     transition: 0.2s;
+    z-index: 999999999;
 }
 
 .products__selectedContainer button:hover {
