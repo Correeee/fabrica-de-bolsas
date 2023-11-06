@@ -14,7 +14,7 @@
     background-repeat: no-repeat;
     background-position: 100% 90%;
     background-size: 10rem 10rem;
-    
+
 }
 
 .products h1 {
@@ -146,32 +146,38 @@
     width: 90%;
 }
 
-.image-gallery-thumbnail{
+.image-gallery-thumbnail {
     cursor: pointer;
 }
 
+.image-gallery-thumbnail:hover{
+    border-color: var(--color-text);
+}
+
+.image-gallery-icon:hover {
+    color: var(--color-text);
+}
+
 @media screen and (max-width: 768px) {
-    .products h1{
+    .products h1 {
         font-size: 3rem;
     }
 
-    .products button{
+    .products button {
         font-size: 1.5rem;
     }
 
-    .products{
+    .products {
         background-image: none
     }
 
-    .carousel{
+    .carousel {
         padding: 1rem 0;
     }
 }
 
 @media screen and (max-width: 520px) {
-    .products__selectedContainer button{
+    .products__selectedContainer button {
         top: 18%;
     }
 }
-
-
