@@ -5,10 +5,10 @@
   --color-text2:#92A072;
 }
 
-
 html {
   font-size: 62.5%;
   font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
 }
 
 body {
@@ -18,8 +18,8 @@ body {
 }
 
 ::-webkit-scrollbar {
-  display: none;
-  width: 5px;
+  /* display: none; */
+  width: 8px;
 }
 
 ::-webkit-scrollbar-track {
