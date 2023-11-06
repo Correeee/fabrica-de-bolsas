@@ -29,7 +29,7 @@
     transition: 0.2s;
     list-style: none;
     color: white;
-    font-weight: 300;
+    font-weight: bold;
 }
 
 .navbar__list-screen li:hover {
