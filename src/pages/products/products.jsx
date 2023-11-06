@@ -52,7 +52,7 @@ const Products = () => {
                                 window.location.href = '#products'
                             }}>
                                 <img src={genericas} alt="Genéricas" className='carousel__img' />
-                                <h2>Genéricas</h2>
+                                <h2>Bolsas Genéricas</h2>
                             </div>
                         </div>
                     </>
