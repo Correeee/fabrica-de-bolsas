@@ -163,6 +163,8 @@
     color: var(--color-text);
 }
 
+
+
 @media screen and (max-width: 768px) {
     .products h1 {
         font-size: 3rem;
