@@ -14,7 +14,7 @@
 
 .home .filter{
     position: absolute;
-    width: 100%;
+    width: 100vw;
     min-height: 100vh;
     background-color: var(--color-secundary);
     opacity: 0.3;
