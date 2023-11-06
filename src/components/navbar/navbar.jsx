@@ -17,10 +17,10 @@ const Navbar = () => {
     }
 
     const handlerNavbar = () => {
-        if (!opened && window.innerWidth < 768) {
+        if (!opened && window.innerWidth <= 768) {
             setOpened(true)
             navbar.current.style.display = 'flex'
-        } else if (opened && window.innerWidth < 768) {
+        } else if (opened && window.innerWidth <= 768) {
             setOpened(false)
             navbar.current.style.display = 'none'
         }
