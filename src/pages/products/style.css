@@ -181,3 +181,9 @@
         top: 18%;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .products__selectedContainer button {
+        top: 22%;
+    }
+}
