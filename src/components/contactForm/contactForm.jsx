@@ -15,13 +15,14 @@ const ContactForm = () => {
 
     const handlerMail = (e) => {
         e.preventDefault()
+
         if (name, phone, text, category, brand) {
             const msg = `¡Hola BUSTA! %0D%0A%0D%0A Mi nombre es ${name.toUpperCase()}, trabajo en el rubro ${category.toUpperCase()} y mi marca es ${brand.toUpperCase()}.%0D%0A%0D%0A${text} %0D%0A%0D%0A Mi número de contacto es ${phone}.`
             window.location.href = `mailto:solubusta@gmail.com?subject=Quiero%20contactarme%20con%20ustedes.&body=${msg}`
             setSending(true)
         }
-
     }
+
 
     return (
         <div className='contactForm'>

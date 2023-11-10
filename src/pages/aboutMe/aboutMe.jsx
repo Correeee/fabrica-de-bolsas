@@ -35,7 +35,7 @@ const AboutMe = () => {
             <div className='about__container'>
                 <img src={aboutIMG} alt="about image" className='about__containerIMG' />
                 <div className='aboutMe__text'>
-                    <h1>Conócenos</h1>
+                    <h1>Conocenos</h1>
                     <h2>Un poco de nosotros</h2>
                     <p>Somos un equipo que trabaja para ofrecer un servicio de calidad. Nuestro trabajo se fundamenta en nuestros valores, los cuales son innegociables.</p>
                     <p>Cuando se trata de llegar a acuerdos, priorizamos el respeto y la comunicación. Nuestra meta es que se beneficien ambas partes y nos permita seguir creciendo. De esta manera, avanzamos día a día, manteniendo la sostenibilidad a lo largo del tiempo y fomentando una economía circular.</p>

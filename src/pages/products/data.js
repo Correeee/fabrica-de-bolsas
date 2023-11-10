@@ -16,6 +16,21 @@ import estampadas7 from '../../images/products/categories/estampadas/7.png'
 import estampadas8 from '../../images/products/categories/estampadas/8.png'
 import estampadas9 from '../../images/products/categories/estampadas/9.png'
 import estampadas10 from '../../images/products/categories/estampadas/10.png'
+import estampadas11 from '../../images/products/categories/estampadas/11.png'
+import estampadas12 from '../../images/products/categories/estampadas/12.png'
+import estampadas13 from '../../images/products/categories/estampadas/13.png'
+import estampadas14 from '../../images/products/categories/estampadas/14.png'
+import estampadas15 from '../../images/products/categories/estampadas/15.png'
+import estampadas16 from '../../images/products/categories/estampadas/16.png'
+import estampadas17 from '../../images/products/categories/estampadas/17.png'
+import estampadas18 from '../../images/products/categories/estampadas/18.png'
+import estampadas19 from '../../images/products/categories/estampadas/19.png'
+import estampadas20 from '../../images/products/categories/estampadas/20.png'
+import estampadas21 from '../../images/products/categories/estampadas/21.png'
+import estampadas22 from '../../images/products/categories/estampadas/22.png'
+import estampadas23 from '../../images/products/categories/estampadas/23.png'
+import estampadas24 from '../../images/products/categories/estampadas/24.png'
+
 
 import genericas1 from '../../images/products/categories/genericas/1.png'
 import genericas2 from '../../images/products/categories/genericas/2.png'
@@ -24,6 +39,9 @@ import genericas4 from '../../images/products/categories/genericas/4.png'
 import genericas5 from '../../images/products/categories/genericas/5.png'
 import genericas6 from '../../images/products/categories/genericas/6.png'
 import genericas7 from '../../images/products/categories/genericas/7.png'
+
+import mates1 from '../../images/products/categories/mates/1.png'
+import mates2 from '../../images/products/categories/mates/2.png'
 
 
 
@@ -100,6 +118,62 @@ export const estampadasList = [
         original: estampadas10,
         thumbnail: estampadas10,
     },
+    {
+        original: estampadas11,
+        thumbnail: estampadas11,
+    },
+    {
+        original: estampadas12,
+        thumbnail: estampadas12,
+    },
+    {
+        original: estampadas13,
+        thumbnail: estampadas13,
+    },
+    {
+        original: estampadas14,
+        thumbnail: estampadas14,
+    },
+    {
+        original: estampadas15,
+        thumbnail: estampadas15,
+    },
+    {
+        original: estampadas16,
+        thumbnail: estampadas16,
+    },
+    {
+        original: estampadas17,
+        thumbnail: estampadas17,
+    },
+    {
+        original: estampadas18,
+        thumbnail: estampadas18,
+    },
+    {
+        original: estampadas19,
+        thumbnail: estampadas19,
+    },
+    {
+        original: estampadas20,
+        thumbnail: estampadas20,
+    },
+    {
+        original: estampadas21,
+        thumbnail: estampadas21,
+    },
+    {
+        original: estampadas22,
+        thumbnail: estampadas22,
+    },
+    {
+        original: estampadas23,
+        thumbnail: estampadas23,
+    },
+    {
+        original: estampadas24,
+        thumbnail: estampadas24,
+    },
 ];
 
 export const genericasList = [
@@ -135,15 +209,11 @@ export const genericasList = [
 
 export const matesList = [
     {
-        original: "https://picsum.photos/id/1018/1000/600/",
-        thumbnail: "https://picsum.photos/id/1018/250/150/",
+        original: mates1,
+        thumbnail: mates1,
     },
     {
-        original: "https://picsum.photos/id/1015/1000/600/",
-        thumbnail: "https://picsum.photos/id/1015/250/150/",
-    },
-    {
-        original: "https://picsum.photos/id/1019/1000/600/",
-        thumbnail: "https://picsum.photos/id/1019/250/150/",
+        original: mates2,
+        thumbnail: mates2,
     },
 ];

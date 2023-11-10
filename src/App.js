@@ -10,7 +10,6 @@ import wsp from './images/wsp.png'
 import Loader from './components/loader/loader';
 import { useState } from 'react';
 
-
 function App() {
 
   const [isLoading, setIsloading] = useState(true)
