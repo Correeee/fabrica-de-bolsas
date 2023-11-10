@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './style.css'
 import { motion } from 'framer-motion'
 import aboutIMG from '../../images/data/brand-busta.jpg'
@@ -23,6 +23,7 @@ import sioutlet from './marquee-images/sioutlet.jpeg'
 
 const AboutMe = () => {
 
+
     return (
         <motion.section
             initial={{ opacity: 0 }}
@@ -32,7 +33,7 @@ const AboutMe = () => {
                 delay: 0.2
             }}
             className='about' id='aboutMe'>
-            <div className='about__container'>
+            <div className='about__container' >
                 <img src={aboutIMG} alt="about image" className='about__containerIMG' />
                 <div className='aboutMe__text'>
                     <h1>Conocenos</h1>
@@ -57,7 +58,7 @@ const AboutMe = () => {
             </div>
             <div className='about__costumers'>
                 <h2>ALGUNOS DE NUESTROS CLIENTES</h2>
-                <marquee behavior="" direction="" className='about__marquee' scrollamount='10' scrolldelay='0' >
+                <marquee behavior="" direction="" className='about__marquee' scrollamount='13' scrolldelay='0'>
                     <img src={woodland} alt="logo woodland" className='marquee__logo' />
                     <img src={municipalidad} alt="logo municipalidad" className='marquee__logo' />
                     <img src={feba} alt="logo feba" className='marquee__logo' />
