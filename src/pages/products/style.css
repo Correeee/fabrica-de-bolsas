@@ -154,7 +154,6 @@
     color: var(--color-text);
 }
 
-
 @media screen and (max-width: 1024px) {
     .image-gallery-image{
         height: 45rem;
