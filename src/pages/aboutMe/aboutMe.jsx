@@ -58,6 +58,13 @@ const AboutMe = () => {
             <div className='about__costumers'>
                 <h2>ALGUNOS DE NUESTROS CLIENTES</h2>
                 <marquee behavior="" direction="" className='about__marquee' scrollamount='10' scrolldelay='0' >
+                    <img src={woodland} alt="logo woodland" className='marquee__logo' />
+                    <img src={municipalidad} alt="logo municipalidad" className='marquee__logo' />
+                    <img src={feba} alt="logo feba" className='marquee__logo' />
+                    <img src={unilever} alt="logo unilever" className='marquee__logo' />
+                    <img src={mercedes} alt="logo mercedes" className='marquee__logo' />
+                    <img src={tienda326} alt="logo tienda326" className='marquee__logo' />
+                    <img src={sioutlet} alt="logo sioutlet" className='marquee__logo' />
                     <img src={gdc} alt="logo gdc" className='marquee__logo' />
                     <img src={elie} alt="logo elie" className='marquee__logo' />
                     <img src={penta} alt="logo penta" className='marquee__logo' />
@@ -67,13 +74,7 @@ const AboutMe = () => {
                     <img src={viandas} alt="logo viandas" className='marquee__logo' />
                     <img src={shell} alt="logo shell" className='marquee__logo' />
                     <img src={atsa} alt="logo atsa" className='marquee__logo' />
-                    <img src={woodland} alt="logo woodland" className='marquee__logo' />
-                    <img src={municipalidad} alt="logo municipalidad" className='marquee__logo' />
-                    <img src={feba} alt="logo feba" className='marquee__logo' />
-                    <img src={unilever} alt="logo unilever" className='marquee__logo' />
-                    <img src={mercedes} alt="logo mercedes" className='marquee__logo' />
-                    <img src={tienda326} alt="logo tienda326" className='marquee__logo' />
-                    <img src={sioutlet} alt="logo sioutlet" className='marquee__logo' />
+
                 </marquee>
             </div>
         </motion.section>
