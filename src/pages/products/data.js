@@ -38,7 +38,6 @@ import genericas3 from '../../images/products/categories/genericas/3.png'
 import genericas4 from '../../images/products/categories/genericas/4.png'
 import genericas5 from '../../images/products/categories/genericas/5.png'
 import genericas6 from '../../images/products/categories/genericas/6.png'
-import genericas7 from '../../images/products/categories/genericas/7.png'
 
 import mates1 from '../../images/products/categories/mates/1.png'
 import mates2 from '../../images/products/categories/mates/2.png'
@@ -200,11 +199,7 @@ export const genericasList = [
     {
         original: genericas6,
         thumbnail: genericas6,
-    },
-    {
-        original: genericas7,
-        thumbnail: genericas7,
-    },
+    }
 ];
 
 export const matesList = [
