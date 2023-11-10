@@ -48,7 +48,7 @@ const Products = () => {
                             </div>
                             <div className='carousel__card' onClick={() => {
                                 setSelectedCategory(genericasList);
-                                setTitle('Genéricas')
+                                setTitle('Bolsas Genéricas')
                                 window.location.href = '#products'
                             }}>
                                 <img src={genericas} alt="Genéricas" className='carousel__img' />
