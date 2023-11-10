@@ -8,16 +8,16 @@ const ContactForm = () => {
     const [name, setName] = useState('')
     const [phone, setPhone] = useState('')
     const [text, setText] = useState('')
-    const [message, setMessage] = useState('gaga fas fas f')
+    const [category, setCategory] = useState('')
+    const [brand, setBrand] = useState('')
 
     const [sending, setSending] = useState(false)
 
     const handlerMail = (e) => {
         e.preventDefault()
-        if (name, phone, text) {
-            const msg = `¡Hola BUSTA! Mi nombre es ${name.toUpperCase()} y mi número de contacto es ${phone}. ${text}`
-            setMessage(msg)
-            window.location.href = `mailto:solubusta@gmail.com?subject=Quiero%20contactarme%20con%20ustedes.&body=${message}`
+        if (name, phone, text, category, brand) {
+            const msg = `¡Hola BUSTA! %0D%0A%0D%0A Mi nombre es ${name.toUpperCase()}, trabajo en el rubro ${category.toUpperCase()} y mi marca es ${brand.toUpperCase()}.%0D%0A%0D%0A${text} %0D%0A%0D%0A Mi número de contacto es ${phone}.`
+            window.location.href = `mailto:solubusta@gmail.com?subject=Quiero%20contactarme%20con%20ustedes.&body=${msg}`
             setSending(true)
         }
 
@@ -28,12 +28,14 @@ const ContactForm = () => {
             {
                 !sending ?
                     <>
-                        <h1>Póngase en contacto.</h1>
-                        <h2>No dude en ponerse en contacto en cualquier momento.</h2>
+                        <h1>PONETE EN CONTACTO CON NOSOTROS</h1>
+                        {/* <h2>No dude en ponerse en contacto en cualquier momento.</h2> */}
                         <form className='contactForm__form' onSubmit={handlerMail}>
-                            <input type="text" name="" id="" placeholder='Nombre completo' required onChange={(e) => setName(e.target.value)} />
-                            <input type="tel" name="" id="" placeholder='Teléfono / Whatsapp' required onChange={(e) => setPhone(e.target.value)} />
-                            <textarea name="" id="" cols="30" rows="10" placeholder='Tu consulta aquí...' required onChange={(e) => setText(e.target.value)} ></textarea>
+                            <input type="text" placeholder='Nombre completo' required onChange={(e) => setName(e.target.value)} />
+                            <input type="text" placeholder='Tu marca' required onChange={(e) => setBrand(e.target.value)} />
+                            <input type="text" placeholder='Rubro' required onChange={(e) => setCategory(e.target.value)} />
+                            <input type="tel" placeholder='Teléfono / Whatsapp' required onChange={(e) => setPhone(e.target.value)} />
+                            <textarea cols="30" rows="10" placeholder='Tu consulta aquí...' required onChange={(e) => setText(e.target.value)} ></textarea>
                             <button
                                 className="contactForm__btn"
                             >Enviar</button>
