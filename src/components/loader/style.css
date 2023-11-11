@@ -19,7 +19,7 @@
     height: 0.75rem;
     border-radius: 10px;
     background-color: var(--color-secundary);
-    margin-left: 2.25rem;
+    margin-left: 2.5rem;
 }
 
 .loader__subBar{
