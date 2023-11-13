@@ -6,7 +6,7 @@ import whatsapp from '../../images/socials/whatsapp.png'
 
 const Footer = () => {
     return (
-        <div className='footer'>
+        <footer className='footer'>
             <img src={brand} alt="brand" className='footer__logo' />
             <div className='footer__socials'>
                 <h2>Nuestras redes</h2>
@@ -24,7 +24,7 @@ const Footer = () => {
                 <h3>Email: <a href='mailto:solubusta@gmail.com' target='__blank'>Solubusta@gmail.com</a></h3>
                 <h3>Whatsapp: <a href='https://wa.link/seyht3' target='__blank'>+54 9 1156045411</a></h3>
             </div>
-        </div>
+        </footer>
     )
 }
 
