@@ -4,7 +4,8 @@
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 100vh;
+    height: auto;
+    min-height: 100vh;
     background-color: white;
     background-image: url(../../images/background/hoja.png);
     background-repeat: no-repeat;
