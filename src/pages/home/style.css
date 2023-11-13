@@ -12,18 +12,9 @@
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 4rem;
-    padding: 5rem 0;
+    padding: 9rem 0 5rem 0;
     box-sizing: border-box;
 }
-/* 
-.home .filter{
-    position: absolute;
-    width: 100vw;
-    min-height: 100vh;
-    background-color: var(--color-secundary);
-    opacity: 0.3;
-} */
 
 .home__container {
     display: flex;
