@@ -14,7 +14,7 @@ const Footer = () => {
                     <img src={instagram} alt="instagram" className='footer__icons' />
                 </a>
                 <span>|</span>
-                <a href="https://wa.link/seyht3" target='__blank'>
+                <a href="https://wa.link/g7eq9l" target='__blank'>
                     <img src={whatsapp} alt="whatsapp" className='footer__icons' />
                 </a>
             </div>
@@ -23,7 +23,7 @@ const Footer = () => {
                 <h3>Dirección: <span>Gral. San Martin, Buenos Aires. Argentina.</span></h3>
                 <h3>Información: <a href='mailto:info@busta.com.ar' target='__blank'>info@busta.com.ar</a></h3>
                 <h3>Ventas: <a href='mailto:ventas@busta.com.ar' target='__blank'>ventas@busta.com.ar</a></h3>
-                <h3>Whatsapp: <a href='https://wa.link/seyht3' target='__blank'>+54 9 1156045411</a></h3>
+                <h3>Whatsapp: <a href='https://wa.link/g7eq9l' target='__blank'>+54 9 1136045763</a></h3>
             </div>
         </footer>
     )
